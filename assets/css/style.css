@@ -1,0 +1,72 @@
+body {
+	background: url(http://gdj.gdj.netdna-cdn.com/wp-content/uploads/2012/08/minimal-background-pattern-wordpress-23.jpg);
+	font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+	font-size: 50px;
+	letter-spacing: 0.25rem;
+	font-weight: 700;
+}
+
+h4 {
+	font-size: 22px;
+}
+
+.wrapper {
+	padding: 20px 0px;
+	text-align: center;
+	font-family: 'Orbitron', sans-serif;
+}
+
+.home {
+	margin: 10% 0px 5%;
+}
+
+.icons {
+	text-align: center;
+}
+.social-media-list  a {
+	text-decoration: none;
+	text-decoration-color: -moz-use-text-color;
+	text-decoration-line: none; 
+	text-decoration-style: solid;
+	color: #ADADAD;
+	padding-right: 5%;
+}
+
+.social-media-list  a:hover {
+	color: black;
+}
+
+a:visited {
+	color: #11B17E;
+}
+
+a:-webkit-any-link {
+	cursor: auto;
+}
+
+#icon_block {
+	max-width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+.social-media-list {
+	list-style: outside none none;
+	text-align: center;
+	font-size: 300%;
+}
+
+@media (max-width: 500px) {
+	h1 {
+		font-size: 32px;
+	}
+	h4 {
+		font-size: 24px;
+	}
+}
